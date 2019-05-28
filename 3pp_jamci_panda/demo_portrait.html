@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover,minimal-ui" />
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli:300">
+<link href="https://creatives.crossinstall.io/3pp_jamci_panda/css/mraid_wrapper_frame.min.css" rel="stylesheet" />
+
+<script type="text/javascript">
+  var dev_params = (typeof mraid === "undefined") ? { dev_nomraid: 1 } : { dev_nomraid: 0 };
+
+  var client_html = "html/m_3pp_jamci_panda.html";
+  var ad_name = "3pp_jamci_panda";
+  var ad_title = "Panda Pop! Bubble Shooter Game";
+  var ad_hash = "";
+  var ad_orientation = (window.innerHeight < window.innerWidth)? "landscape" : "portrait";
+  var ad_webroot = "https://creatives.crossinstall.io";
+  var ad_logroot = "https://www.serveroute.com";
+  var ad_splash_image = ad_webroot + "/3pp_jamci_panda/img/icon.jpg";
+  var ad_has_custom_load_screen = true;
+  var ad_creative_id = "";
+  var ad_close_duration = 5000;
+  var ad_close_position = "right";
+  var ad_close_countdown = false;
+  var ad_hide_header = true;
+  var ad_exchange = "mopub";
+  var ad_getapp_instead_of_title = false;
+  var ad_dynamic_parameters = (ad_url_query_index === 0) ? "" : window.location.href.slice(ad_url_query_index);
+  var ad_advertising_label_lang = "";
+  var ad_show_age_ratings = "";
+  var ad_analytics_sample_rate = 0;
+  var ad_auction_id = "";
+  var ad_device_id = "";
+  var ad_time_series = "";
+  var ad_app_store_url = "https://itunes.apple.com/app/panda-pop-blast-the-bubbles/id700970012";
+  var ad_google_play_url = "https://play.google.com/store/apps/details?id=com.sgn.pandapop.gp";
+  var ad_click_dest = (/android/i.test(navigator.userAgent))? ad_google_play_url : ad_app_store_url;
+  var ad_geo_city = "";
+  var ad_geo_country = "";
+  if(ad_exchange === "chartboost") ad_orientation = window.innerHeight > window.innerWidth ? 'portrait' : 'landscape';
+  if(ad_exchange === "ironsource") ad_orientation = ( mraid.getMaxSize().height > mraid.getMaxSize().width ) ? "portrait" : "landscape";
+</script>
+
+<script crossorigin='anonymous' src="https://creatives.crossinstall.io/3pp_jamci_panda/js/code.js"></script>
+
+<iframe id="creativeFrame" scrolling="no"></iframe>
